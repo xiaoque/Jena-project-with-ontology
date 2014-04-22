@@ -1,0 +1,4 @@
+@prefix ns: <http://www.owl-ontologies.com/unnamed.owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+ 
+[rule: (?per rdf:type ns:Actor) ->(?per rdf:type A) ]

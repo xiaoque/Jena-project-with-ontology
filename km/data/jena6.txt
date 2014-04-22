@@ -1,0 +1,6 @@
+@prefix ns: <http://www.owl-ontologies.com/unnamed.owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+
+[rule1: (?per rdf:type ns:Person)  (?per ns:age ?age) lessThan(?age, 55)-> (?per rdf:type ns:PersonAge)]
+[rule2:(?per rdf:type ns:Actor) (?per ns:gender "Male")-> (?per rdf:type ns:ActorMale)]
+[rule3: (?per rdf:type ns:Movie) (?per ns:language "English") -> (?per rdf:type ns:EnglishMovie)]
